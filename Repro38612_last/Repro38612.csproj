@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
 	<OutputType>Exe</OutputType>
     <RootNamespace>Repro38612</RootNamespace>
@@ -12,18 +12,12 @@
     <ApplicationVersion>1</ApplicationVersion>
     <SupportedOSPlatformVersion>15.0</SupportedOSPlatformVersion>
     <ProvisioningType>manual</ProvisioningType>
-    <CodesignKey>Apple Development: Created via API</CodesignKey>
+    <CodesignKey>Apple Development: Created via API (RNL7W66AG8)</CodesignKey>
     <CodesignProvision>VS: WildCard Development</CodesignProvision>
   </PropertyGroup>
 
 	<PropertyGroup>
-		<TargetFrameworks>net10.0-android;net10.0-ios</TargetFrameworks>
-
-		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">26.0</SupportedOSPlatformVersion>
-
-		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">21.0</SupportedOSPlatformVersion>
-
-		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">36.0</TargetPlatformMinVersion>
+		<TargetFrameworks>net10.0-ios</TargetFrameworks>
 	</PropertyGroup>
 	
   <ItemGroup>
