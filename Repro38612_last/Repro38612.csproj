@@ -12,7 +12,7 @@
     <ApplicationVersion>1</ApplicationVersion>
     <SupportedOSPlatformVersion>15.0</SupportedOSPlatformVersion>
     <ProvisioningType>manual</ProvisioningType>
-    <CodesignKey>Apple Development: Created via API (RNL7W66AG8)</CodesignKey>
+    <CodesignKey>Apple Development: Created via API</CodesignKey>
     <CodesignProvision>VS: WildCard Development</CodesignProvision>
   </PropertyGroup>
 
