@@ -1,7 +1,3 @@
-Tukaj je celotna vsebina `README_CHATGPT.md` v surovem Markdown formatu. Zunanji blok uporablja štiri backticke, zato se vse notranje oznake ohranijo in jih lahko neposredno kopiraš v datoteko.
-
-markdown
-````
 # Repro for dotnet/maui#38612 (related: discussion #35580)
 
 ## Summary
@@ -176,4 +172,3 @@ However, the exception alone does not prove that GC is the root cause. Handler d
 3. Does disabling `Border.Shadow` or rounded shapes change the result?
 4. Is there a regression between MAUI 10.0.51 and 10.0.110 under otherwise identical conditions?
 5. Is the failure caused by MAUI's iOS view lifecycle, .NET for iOS Objective-C interop, or an interaction between them?
-````
